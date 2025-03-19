@@ -5,6 +5,7 @@ import Pagefooter from "./Pagefooter";
 import Pagefooterinfo from "./Pagefooterinfo";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { motion } from "framer-motion"
 
 function ListCargo() {
   const [cargos, setCargos] = useState([]);
@@ -360,10 +361,21 @@ function ListCargo() {
       </div>
       {/* END PAGE CONTAINER */}
       {/* BEGIN PRE-FOOTER */}
+      <div className="footer-container"
+    style={{
+      position: "absolute",
+      bottom: 0,
+      left: 0,
+      width: "100%",
+      zIndex: 0,
+      }}  
+      >
       <Pagefooter />
       {/* END PRE-FOOTER */}
       {/* BEGIN FOOTER */}
       <Pagefooterinfo />
+      </div>
+    
       <div className="scroll-to-top">
         <i className="icon-arrow-up" />
       </div>

@@ -1,3 +1,5 @@
+
+
 function Headermenu (){
     return(
         <div className="page-header-menu">
@@ -31,10 +33,10 @@ function Headermenu (){
                     </a>
                     <ul className="dropdown-menu">
                       <li className=" ">
-                        <a href="/Ogrencikayıt">Müşteri Yeni Kayıt </a>
+                        <a href="/MusteriForm">Müşteri Yeni Kayıt </a>
                       </li>
                       <li className=" ">
-                        <a href="List_Student.html">Müşteri Listesi </a>
+                        <a href="/MusteriList">Müşteri Listesi </a>
                       </li>
                     </ul>
                   </li>
@@ -61,27 +63,14 @@ function Headermenu (){
                     </a>
                     <ul className="dropdown-menu">
                       <li className=" ">
-                        <a href="FormStudent.html">Yeni Kargo </a>
+                        <a href="/FormCargo">Yeni Kargo </a>
                       </li>
                       <li className=" ">
-                        <a href="table_tree.html">Kargo Listesi </a>
+                        <a href="/ListCargo">Kargo Listesi </a>
                       </li>
                     </ul>
                   </li>
-                  <li className=" dropdown-submenu">
-                    <a href=":;">
-                      <i className="icon-briefcase" />
-                      Sipariş{" "}
-                    </a>
-                    <ul className="dropdown-menu">
-                      <li className=" ">
-                        <a href="FormStudent.html">Yeni Sipariş </a>
-                      </li>
-                      <li className=" ">
-                        <a href="table_tree.html">Sipariş Listesi </a>
-                      </li>
-                    </ul>
-                  </li>
+                  
                 </ul>
 
                   Ürün Yönetimi <i className="fa fa-angle-down" />
@@ -94,10 +83,10 @@ function Headermenu (){
                     </a>
                     <ul className="dropdown-menu">
                       <li className=" ">
-                        <a href="/Ogrencikayıt">Yeni Ürün </a>
+                        <a href="/NewProduct">Yeni Ürün </a>
                       </li>
                       <li className=" ">
-                        <a href="List_Student.html">Ürün Listesi </a>
+                        <a href="/ListProduct">Ürün Listesi </a>
                       </li>
                     </ul>
                   </li>
@@ -135,10 +124,10 @@ function Headermenu (){
                     </a>
                     <ul className="dropdown-menu">
                       <li className=" ">
-                        <a href="FormStudent.html">Yeni Sipariş </a>
+                        <a href="/SiparisListe">Yeni Sipariş </a>
                       </li>
                       <li className=" ">
-                        <a href="table_tree.html">Sipariş Listesi </a>
+                        <a href="/Siparis">Sipariş Listesi </a>
                       </li>
                     </ul>
                   </li>
