@@ -8,6 +8,18 @@ import axios from "axios";
 
 function siparis() {
     
+
+  //post işlemi
+
+    //Post işlemi baslangıcı
+
+
+
+
+
+
+
+  //Get işlemi 
     const [order, setOrderList] = useState([]);
 
     useEffect(() => {
